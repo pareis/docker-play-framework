@@ -2,7 +2,7 @@
 # play-framework
 
 Docker image which provides a typesafe activator 1.3.10, designed to launch play applications (v2.3+).
-* Activator: 1.3.10
+* Activator: 1.3.11
 * Play version: 2.5.9 
 * Java: Oracle-jdk-8u45
 * OS: CentOS-7
@@ -33,7 +33,7 @@ docker run -d \
 You can also package your app, in order to do that, create a `Dockerfile` like it:
 
 ```
-FROM ingensi/play-framework:latest
+FROM kbiakov/play-framework:latest
 MAINTAINER <your@email.com>
 
 ADD /path/to/my/play-src /app
